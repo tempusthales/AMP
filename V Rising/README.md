@@ -37,7 +37,7 @@ If you would like to help contribute to the further development of this module, 
 
 ## Credits
 
-This game module for AMP couldn't have been done without the help of various people, first and foremost [Mike](https://github.com/PhonicUK) from **Cube Coders**, makers of [AMP](https://cubecoders.com/AMP).  **[IceOfWraith](https://github.com/IceOfWraith)** whose help, suggestions, optimism and support were crucial to finish this and **Watergard** from **[Mostly Harmless](https://mhguild.com)**.
+This game module for AMP couldn't have been done without the help of various people, first and foremost [Mike](https://github.com/PhonicUK) from **Cube Coders**, makers of [AMP](https://cubecoders.com/AMP).  **[IceOfWraith](https://github.com/IceOfWraith)** whose help, suggestions, optimism and support were crucial to finish this (given this was my first published Game Module for AMP and **Watergard** from **[Mostly Harmless](https://mhguild.com)**, the guild I play with.
 
 ## Our Server
 
