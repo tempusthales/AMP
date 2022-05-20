@@ -126,9 +126,9 @@
         "IncludeInCommandLine":false
     },
     {
-        "DisplayName":"Secure",
+        "DisplayName":"VAC Secure",
         "Category":"Host Settings",
-        "Description":"I have no idea...",
+        "Description":"Choose if you want your server to use VAC or not.",
         "Keywords":"server, secure",
         "FieldName":"Secure",
         "InputType":"checkbox",
