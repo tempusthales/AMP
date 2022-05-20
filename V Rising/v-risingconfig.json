@@ -202,7 +202,7 @@
     {
         "DisplayName":"Game Settings Ruleset",
         "Category":"Host Settings",
-        "Description":"Change Game Mode Ruleset.  <b>Must Match Game Mode Type</b>",
+        "Description":"Change Game Mode Ruleset.  Must Match Game Mode Type",
         "Keywords":"Game, Ruleset",
         "FieldName":"GameSettingsPreset",
         "InputType":"enum",
