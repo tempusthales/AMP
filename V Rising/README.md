@@ -39,6 +39,15 @@ If you would like to help contribute to the further development of this module, 
 
 This game module for AMP couldn't have been done without the help of various people, first and foremost [Mike](https://github.com/PhonicUK) from **Cube Coders**, makers of [AMP](https://cubecoders.com/AMP).  **[IceOfWraith](https://github.com/IceOfWraith)** whose help, suggestions, optimism and support were crucial to finish this and **Watergard** from **[Mostly Harmless](https://mhguild.com)**.
 
+## Our Server
+
+If you would like to play with us in our AMP powered V Rising dedicated server by using these two links below:
+
+* **Texas Blood Rising by Night** (Search for this name in the in-game server browser)
+    + [SteamIPv4://68.127.172.74:15002](SteamIPv4://68.127.172.74:15002)
+    + [SteamP2P://90159277932049415](SteamP2P://90159277932049415)
+
+See you there!!
 
 
 ------
