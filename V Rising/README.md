@@ -10,11 +10,6 @@
 V Rising is a game where you awaken as a vampire. Hunt for blood in nearby settlements to regain your strength and evade the scorching sun to survive. Raise your castle and thrive in an ever-changing open world full of mystery. Gain allies online and conquer the land of the living.
 
 
-## What is [AMP]()?
-
-AMP by CubeCoders is the easy way to create and manage game server instances from a friendly, intuitive web interface with no complex setup required.
-
-
 ## Install Instructions
 
 Like all other AMP Modules place the .kvp and .json files in your ADS instance under the `/Plugins/ADSModule/GenericTemplates` directory along side the other .kvp and .json files.
