@@ -1,5 +1,5 @@
-# AMP
+[![AMP Logo](https://i.imgur.com/KTOCZtX.png)](https://cubecoders.com/AMP)
 
-![AMP Logo](https://i.imgur.com/KTOCZtX.png)
+## Game Modules for AMP
 
-Game Modules for AMP
+### What is AMP?
