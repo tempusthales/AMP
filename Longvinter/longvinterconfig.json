@@ -1,0 +1,136 @@
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "Host Settings",
+        "Description": "It's the name that shows up in the server browser. Please don't call your server with OFFICIAL name. We want players to clearly know if they are joining a server that is hosted by other players.",
+        "Keywords": "Server, name",
+        "FieldName": "Name",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.ServerName",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Unnamed Island",
+        "EnumValues": {}
+      },
+      {
+        "DisplayName": "Server Tag",
+        "Category": "Host Settings",
+        "Description": "It's the tag that allows for easier search of the server. Please don't use your the word OFFICIAL on it. We want players to clearly know if they are joining a server that is hosted by other players. And only place one tag.",
+        "Keywords": "Server, name",
+        "FieldName": "ServerTag",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.ServerTag",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Default",
+        "EnumValues": {}
+      },
+      {
+        "DisplayName": "Server MOTD",
+        "Category": "Host Settings",
+        "Description": "Server message that is on a signs around the island.",
+        "Keywords": "Server, motd",
+        "FieldName": "ServerMOTD",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.ServerMOTD",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "Welcome to Longvinter Island!",
+        "EnumValues": {}
+      },
+      {
+        "DisplayName": "Max Players",
+        "Category": "Host Settings",
+        "Description": "Maximum allowed players that can connect at any given time.",
+        "Keywords": "max, players",
+        "FieldName": "$MaxUsers",
+        "InputType": "number",
+        "DefaultValue": "32",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.MaxPlayers",
+        "IncludeInCommandLine": false,
+        "Suffix": "players"
+      },
+      {
+        "DisplayName": "Password",
+        "Category": "Host Settings",
+        "Description": "Add you password here. Use only number and letters. If left empty there is no password on the server.",
+        "Keywords": "server, password",
+        "FieldName": "Password",
+        "DefaultValue": "",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.Password",
+        "IncludeInCommandLine": false
+      },
+      {
+        "DisplayName": "Community Website",
+        "Category": "Host Settings",
+        "Description": "Allows you to promote a website on a same place where the server message is shown. This link can be opened in-game.",
+        "Keywords": "community, website",
+        "FieldName": "CommunityWebsite",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gi_advancedsessions.gi_advancedsessions_c.CommunityWebsite",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "www.longvinter.com",
+        "EnumValues": {}
+      },
+      {
+        "DisplayName": "Admin SteamID",
+        "Description": "Here you can add all the admins that you want to have in the server. If you want to add multiple separate the ID's with single space. [Find your Steam64 ID](https://steamid.io/lookup/)",
+        "FieldName": "AdminSteamID",
+        "Category": "Host Settings",
+        "InputType": "list",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gm_longvinter.gm_longvinter_c.AdminSteamID",
+        "IncludeInCommandLine": false,
+        "DefaultValue": "76561197993360028",
+        "EnumValues": {}
+      },
+      {
+        "DisplayName":"PvP",
+        "Category":"Host Settings",
+        "Description":"Here you write true or false if you want to enable/disable Player versus Player fights.",
+        "Keywords":"Game, Mode, Type",
+        "FieldName":"GameModeType",
+        "InputType":"enum",
+        "IsFlagArgument":false,
+        "ParamFieldName":"/game/blueprints/server/gm_longvinter.gm_longvinter_c.PVP",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"true",
+        "EnumValues":{
+            "PvE": "false",
+            "PvP": "true"
+        }
+    },
+    {
+        "DisplayName":"Tent Decay",
+        "Category":"Host Settings",
+        "Description":"Here you write true or false if you want to enable/disable tent decay to make sure there isn't an abundant number of abandoned tents in the server.",
+        "Keywords":"Game, Mode, Type",
+        "FieldName":"TentDecay",
+        "InputType":"enum",
+        "IsFlagArgument":false,
+        "ParamFieldName":"/game/blueprints/server/gm_longvinter.gm_longvinter_c.TentDecay",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"true",
+        "EnumValues":{
+            "True": "true",
+            "False": "false"
+        }
+    },
+    {
+        "DisplayName": "Max Tents",
+        "Category": "Host Settings",
+        "Description": "Maximum allowed of tents that players that can place in the server",
+        "Keywords": "max, tents",
+        "FieldName": "MaxTents",
+        "InputType": "number",
+        "DefaultValue": "2",
+        "IsFlagArgument": false,
+        "ParamFieldName": "/game/blueprints/server/gm_longvinter.gm_longvinter_c.MaxTents",
+        "IncludeInCommandLine": false,
+        "Suffix": "tents"
+    }
+]
