@@ -85,7 +85,7 @@
         "IsFlagArgument": false,
         "ParamFieldName": "/game/blueprints/server/gm_longvinter.gm_longvinter_c.AdminSteamID",
         "IncludeInCommandLine": false,
-        "DefaultValue": "76561197993360028",
+        "DefaultValue": "",
         "EnumValues": {}
       },
       {
