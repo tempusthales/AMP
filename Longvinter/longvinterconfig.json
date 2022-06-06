@@ -81,7 +81,7 @@
         "Description": "Here you can add all the admins that you want to have in the server. To find out what is your EOS number press ESC > Options > General",
         "FieldName": "AdminSteamID",
         "Category": "Host Settings",
-        "InputType": "list",
+        "InputType": "text",
         "IsFlagArgument": false,
         "ParamFieldName": "/game/blueprints/server/gm_longvinter.gm_longvinter_c.AdminSteamID",
         "IncludeInCommandLine": false,
