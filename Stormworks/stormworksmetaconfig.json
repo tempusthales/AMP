@@ -1,0 +1,7 @@
+[
+    {
+        "ConfigFile": "Stormworks/server_config.xml",
+        "AutoMap": true,
+        "ConfigType": "xml"
+    }
+]
