@@ -7,29 +7,26 @@ This is WIP.  More coming soon(tm).
 Server data parameters are pretty much understandable but I'll leave a note for some of them:
 
 ```Plain Text
-port="25564" 		sets the game and query ports that will be used for the server 
-name="Stormworks"	set the name of the server 
-save_name=""		set the world save name that will be used for save and loading 
-max_players="32"	set the max number of the players for server 
-password=""			set the password (empty means no password) physics_timestep="180"						change physics resolution, 0 is auto by default (acceptable values 						are 60, 120, 180) 
 
-wildlife_enabled="true"			enables birds and fish simulation 
-fish_spawn_rate="1"				rate of fish spawn around players, requires 											wildlife_enabled (acceptable values are 0, 1, 2, 3)
-
-
+port="25564"                                sets the game and query ports that will be used for the server 
+name="Stormworks"                           set the name of the server 
+save_name=""		                            set the world save name that will be used for save and loading 
+max_players="32"	                          set the max number of the players for server 
+password=""			                            set the password (empty means no password)
+physics_timestep="180"                      change physics resolution, 0 is auto by default (acceptable values are 60, 120, 180)
+wildlife_enabled="true"                     enables birds and fish simulation 
+fish_spawn_rate="1"                         rate of fish spawn around players, requires wildlife_enabled (acceptable values are 0, 1, 2, 3)
 ```
-
 
 World settings are only used when you start a new game (i.e. set empty save_name) which means changing these settings will not change already created saves:
 
 ```Plain Text
-seed=""					set the seed that will be used for the world generation (empty is random) 
-day_night_length="60"	set the length of the day in minutes 
-settings_menu="true"	enable/disable custom settings menu (available only for admins if locked) 
-base_island=""			set what player base will be owned on start (empty is start base) dlc_weapons="true"	  enable/disable weapons for new world
+seed=""                                     set the seed that will be used for the world generation (empty is random) 
+day_night_length="60"	                      set the length of the day in minutes 
+settings_menu="true"	                      enable/disable custom settings menu (available only for admins if locked) 
+base_island=""			                        set what player base will be owned on start (empty is start base) 
+dlc_weapons="true"	                        enable/disable weapons for new world
 ```
-
-
 
 In other words, if you created a game with disabled weapons DLC then you will need either create a new world or edit scene.xml of an already created world to change that parameter.
 
