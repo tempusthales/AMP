@@ -1,7 +1,7 @@
 [
     {
-        "ConfigFile": "./longvinter/1639880/Longvinter/Saved/Config/WindowsServer/Game.ini",
-        "AutoMap": true,
-        "ConfigType": "ini"
+        "ConfigFile":"Longvinter/Saved/Config/WindowsServer/Game.ini",
+        "AutoMap":true,
+        "ConfigType":"ini"
     }
 ]
