@@ -24,13 +24,13 @@ App.DisplayName=Swords 'n Magic and Stuff
 App.RootDir=./Swords 'n Magic and Stuff Dedicated Server/
 App.BaseDirectory=./Swords 'n Magic and Stuff Dedicated Server/2058450/
 App.ExecutableWin=2058450\SNMASServer.exe
-App.ExecutableLinux=2058450/
 App.WorkingDir=2058450
-App.LinuxCommandLineArgs=
-App.WindowsCommandLineArgs=
-App.CommandLineArgs=
+App.LinuxCommandLineArgs=run {{$ExecutableWin}}
+App.ExecutableLinux=1580130/proton
+App.WindowsCommandLineArgs=start {{$ExecutableWin}}
+App.CommandLineArgs={{$PlatformArgs}}
 App.AppSettings={}
-App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"2058450"}
+App.EnvironmentVariables={"LD_LIBRARY_PATH":"./linux64:%LD_LIBRARY_PATH%","SteamAppId":"2058450", "./linux64:%LD_LIBRARY_PATH%", "SteamAppId": "{{$SteamAppID}}", "STEAM_COMPAT_DATA_PATH": "{{$FullRootDir}}1580130", "STEAM_COMPAT_CLIENT_INSTALL_PATH": "{{$FullRootDir}}1580130"}
 App.CommandLineParameterFormat=-{0} "{1}"
 App.CommandLineParameterDelimiter= 
 App.ExitMethod=CtrlC
@@ -55,14 +55,7 @@ App.AdminLoginTransform=None
 App.RCONConnectDelaySeconds=5
 App.RCONConnectRetrySeconds=5
 App.TelnetLoginFormat={0}
-App.UpdateSources=[{"UpdateStageName":"SteamCMD Download","UpdateSourcePlatform":"All","UpdateSource":"SteamCMD","UpdateSourceData":"2058450"},{"UpdateStageName":"Config Directory Creation","UpdateSourcePlatform":"All","UpdateSource":"CreateDirectory","UpdateSourceArgs":".\Swords 'n Magic and Stuff Dedicated Server\2058450\SNM2020\Saved\Config\WindowsServer"},{"UpdateStageName": "Config Template Download","UpdateSourcePlatform": "All", "UpdateSource": "FetchURL", "UpdateSourceData": "https://github.com/tempusthales/AMP/Swords 'n Magic and Stuff/", "UpdateSourceTarget": "../", "OverwriteExistingFiles": "true"}]
-
-
-
-
-
-
-
+App.UpdateSources=[{"UpdateStageName": "Proton Compatibility Layer", "UpdateSourcePlatform": "Linux", "UpdateSource": "SteamCMD", "UpdateSourceData":"1580130", "UpdateStageName":"SteamCMD Download","UpdateSourcePlatform":"All","UpdateSource":"SteamCMD","UpdateSourceData":"2058450", "UpdateStageName":"Config Directory Creation","UpdateSourcePlatform":"All","UpdateSource":"CreateDirectory","UpdateSourceArgs":"./Swords 'n Magic and Stuff Dedicated Server/2058450/SNM2020/Saved/Config/WindowsServer"},{"UpdateStageName": "Config Template Download","UpdateSourcePlatform": "All", "UpdateSource": "FetchURL", "UpdateSourceData": "https://raw.githubusercontent.com/tempusthales/AMP/main/swords-n-magic-and-stuff/Game.ini", "UpdateSourceTarget": "../", "OverwriteExistingFiles": "true"}]
 App.Compatibility=None
 App.SteamUpdateAnonymousLogin=True
 App.SteamForceLoginPrompt=False
